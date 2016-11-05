@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create nombre: 'Sergio', apellido: 'Alonso', email: 'sergio@eim.esc.edu.ar', password_digest: BCrypt::Password.create('AndaLaOsa2016'), admin: true, province_id: 108
+User.create nombre: 'eli', apellido: 'villegas', email: 'eli@gmail.com', password_digest: BCrypt::Password.create('1234'), admin: true, province_id: 108
 
 
 Country.create(pais: "Andorra")
